@@ -69,7 +69,7 @@ namespace EncryptionProject
             }
             else
             {
-                logger.Log("Warning", "Encrypt method with name %s does not exist!", options.encryptionKey);   
+                logger.Log("Warning", $"Encrypt method with name {options.encryptionKey} does not exist!", options.encryptionKey);   
             }
            
 
